@@ -1,0 +1,75 @@
+body {
+    
+        background-color: black ;
+    
+    
+}
+
+
+
+.site-title {
+    color:rgb(9, 255, 0);
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vhh;
+}
+
+.site-description {
+    color:rgb(9, 255, 0);
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vhh;
+}
+
+
+.Button {
+    display: inline-block;    /* Pour donner un aspect de bloc au lien */
+    background-color: rgb(70, 5, 173); 
+    margin-right: 10px;  
+    color: rgb(9, 255, 0);             /* Couleur du texte */
+    padding: 10px 20px;       /* Espacement interne */
+    text-decoration: none;    /* Supprime le soulignement */
+    border-radius: 150px;       /* Coins arrondis */
+    font-size: 16spx;
+    text-align: center;
+    transition: background-color 0.3s;
+    justify-content: center;
+    align-items: center;
+    height: 1vhh;
+    cursor: pointer;
+}
+
+.Button:hover {
+    background-color: #0056b3; /* Couleur plus foncée */
+    color: white;
+}
+
+/*texte brillant*/
+.Button:hover {
+    animation: brillance 0.8s infinite; /*Animation*/
+}
+
+
+@keyframes brillance {
+    0%, 100% {
+        text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ff00ff, 
+                     0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 
+                     0 0 75px #ff00ff;
+    }
+    50% {
+        text-shadow: 0 0 2px #ffffff, 0 0 4px #ffffff, 0 0 8px #00ffff, 
+                     0 0 12px #00ffff, 0 0 16px #00ffff, 0 0 20px #00ffff, 
+                     0 0 30px #00ffff;
+    }
+}
+                                        
+            
+
