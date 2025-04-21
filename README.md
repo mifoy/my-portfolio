@@ -25,7 +25,7 @@ Ce dépôt contient mon **portfolio professionnel** ainsi qu'une section dédié
 
 ---
 
- 📬 Me contacter
+ #📬 Me contacter
 
 Vous pouvez me contacter via :
 - [discord](.mifo)
