@@ -1,4 +1,4 @@
-** {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,27 +8,38 @@
     color: #ccc;
     font-family: 'Fira Code', monospace;
     line-height: 1.6;
+    /*background*/
+    background-image: url('images/ton-image.jpg'); /* Chemin de ton image */
+    background-size: cover;        /* L’image prend tout l’écran */
+    background-repeat: no-repeat;  /* Pas de répétition */
+    background-position: center;   /* Centrer l’image */
+    margin: 0;
+    padding: 0;
   }
+  
   
   .container {
     
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
+    position: fixed;
+    top: 15%;
+    left: 50px;
+    padding: 30px;
+    border: 2px solid white;
+    background-color: #1e1e1e; /* pour bien voir le contraste */
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 500px;
+    border-radius: 10px;
   }
   
   h1 {
     color: #fff;
     font-size: 1.5rem;
   }
-  
-  
-  
-  
-  
  
-  
-  
   .skills-box {
     position: fixed;
     bottom: 40%;
@@ -60,15 +71,3 @@
     width: 30px;
     height: 30px;
   }
-  
-      
-      
-  
-  
-  
-  
-  .card img {
-    width: 200px;
-    border-radius: 8px;
-  }
-  
