@@ -5,7 +5,8 @@ Ce dépôt contient mon **portfolio professionnel** ainsi qu'une section dédié
 
  🌐 Site en ligne
 
-🔗 Accédez au site ici : [https://mifoy.github.io/my-portfolio](https://mifoy.github.io/my-portfolio)
+🔗 Accédez au site ici : <a href="https://mifoy.github.io/my-portfolio" target="_blank">https://mifoy.github.io/my-portfolio</a>
+
 
 ---
 
