@@ -1,7 +1,7 @@
  🎨 My Portfolio
 
 Bienvenue sur mon espace personnel GitHub Pages !  
-Ce dépôt contient mon **portfolio professionnel** ainsi qu'une section dédiée à mes **projets personnels**.
+Ce dépôt contient mon **portfolio** ainsi qu'une section dédiée à mes **projets**.
 
  🌐 Site en ligne
 
