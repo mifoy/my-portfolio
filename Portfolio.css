@@ -41,7 +41,6 @@ body {
   z-index: 5;
 }
 
-}
 
 /* La box Skills */
 .skills-box {
@@ -62,7 +61,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   color: white;
 
-  z-index: 10;
+  z-index: 99999;
 }
 
 /* Grille des langages */
