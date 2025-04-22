@@ -45,12 +45,18 @@
     bottom: 40%;
     left: 200px;
     padding: 30px;
-    border: 1px solid white;
-    background-color: #1e1e1e; /* pour bien voir le contraste */
-    color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     width: 500px;
+
+    background: rgba(255, 255, 255, 0.1); /* fond blanc transparent */
+    backdrop-filter: blur(10px);          /* effet flou */
+    -webkit-backdrop-filter: blur(10px);  /* compatibilité Safari */
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
   }
   
   .languages {
