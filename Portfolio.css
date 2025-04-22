@@ -39,7 +39,7 @@ body {
   color: white;
 
   z-index: 5;
-  margin-top: 20px;
+  
 }
 
 
@@ -63,6 +63,7 @@ body {
   color: white;
 
   z-index: 99999;
+  margin-top: 20px;
 }
 
 .others {
