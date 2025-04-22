@@ -25,7 +25,7 @@
     padding: 1.5rem;
     position: fixed;
     top: 15%;
-    left: 50px;
+    left: 300px;
     padding: 30px;
     border: 2px solid white;
     background-color: #1e1e1e; /* pour bien voir le contraste */
@@ -43,7 +43,7 @@
   .skills-box {
     position: fixed;
     bottom: 40%;
-    left: 50px;
+    left: 300px;
     padding: 30px;
     border: 2px solid white;
     background-color: #1e1e1e; /* pour bien voir le contraste */
