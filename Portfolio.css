@@ -1,6 +1,4 @@
-/* Styles globaux */
-{
-  margin: 0;
+margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -14,6 +12,7 @@ body {
   color: #ccc;
   font-family: 'Fira Code', monospace;
   line-height: 1.6;
+  
   background-image: url('images/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,8 +23,8 @@ body {
 .container {
   position: fixed;
   top: 15%;
-  left: 50%;
-  transform: translateX(-50%); /* Centrer horizontalement */
+  left: 200px;
+  
   padding: 30px;
   width: 500px;
 
@@ -37,15 +36,19 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   color: white;
+
   z-index: 5;
+  
 }
+
 
 /* La box Skills */
 .skills-box {
   position: fixed;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Centrer la box au milieu */
+  top: 50%;
+  left: 200px;
+  transform: translateY(-50%);
+  
   padding: 30px;
   width: 500px;
 
@@ -57,19 +60,32 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   color: white;
+
   z-index: 99999;
   margin-top: 80px;
 }
 
-/* Grille des langages et autres */
-.others, .languages {
+.others {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
   gap: 40px;
   margin-top: 20px;
 }
 
-.language, .others .others-item {
+.others h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+/* Grille des langages */
+.languages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.language {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,44 +106,4 @@ h1 {
 h2 {
   font-size: 1.2rem;
   margin-bottom: 15px;
-  color: #fff;
-}
-
-/* Media Queries pour différentes tailles d'écran */
-
-/* Tablettes (écrans entre 600px et 1024px) */
-@media screen and (max-width: 1024px) {
-  .container, .skills-box {
-    width: 80%;
-  }
-
-  .languages {
-    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
-  }
-
-  .others {
-    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
-  }
-}
-
-/* Mobile (écrans de moins de 600px) */
-@media screen and (max-width: 600px) {
-  .container, .skills-box {
-    width: 90%; /* Réduit la largeur */
-    left: 5%; /* Ajoute de l'espace sur les côtés */
-    transform: translateX(0); /* Centrer de manière plus fluide */
-  }
-
-  .languages {
-    grid-template-columns: 1fr; /* 1 colonne */
-  }
-
-  .others {
-    grid-template-columns: 1fr; /* 1 colonne */
-  }
-
-  .lang-icon {
-    width: 25px;
-    height: 25px;
-  }
 }
