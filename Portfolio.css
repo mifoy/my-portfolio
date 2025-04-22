@@ -47,10 +47,9 @@ body {
 /* La box Skills */
 .skills-box {
   position: fixed;
-  top: 50%;
+  top: 60%;  /* Augmente la valeur pour espacer un peu plus */
   left: 200px;
   transform: translateY(-50%);
-  
   padding: 30px;
   width: 500px;
 
@@ -63,9 +62,11 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   color: white;
 
-  z-index: 99999;
-  margin-top: 80px;
+  z-index: 10;
+  margin-top: 20px; /* Ajoute cette ligne pour l'espacement */
 }
+
+
 
 .others {
   display: grid;
