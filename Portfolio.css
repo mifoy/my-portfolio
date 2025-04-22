@@ -71,3 +71,7 @@
     width: 30px;
     height: 30px;
   }
+
+html, body {
+    height: 100%;
+}
