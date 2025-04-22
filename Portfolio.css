@@ -1,4 +1,6 @@
-margin: 0;
+/* Réinitialisation des marges, des paddings, etc. */
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -77,6 +79,7 @@ body {
   margin-bottom: 15px;
   color: #fff;
 }
+
 /* Grille des langages */
 .languages {
   display: grid;
