@@ -1,49 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MIFO</title>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="Portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mifo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Mifo</h1>
-      <p>Welcome to my portfolio, I'm 17, a cybersecurity enthusiast, and interested in network cybersecurity and learning about computers.</p>
-    </div>
-  </header>
 
-  <main>
-    <div class="skills-box">
-      <h1>Skills</h1>
-      <h2>Languages</h2>
 
-      <div class="languages">
-        <div class="language">
-          <img src="images/pythonsvg.svg" class="lang-icon">
-          <span>Python</span>
+
+<div class="container">
+<header>
+    <p id="theme-toggle">light mode</p>
+    <p>FR</p>
+</header>
+<main>
+
+    <!-- PRESENTATION -->
+    <section class="presentation">
+
+        <div class="me">
+            <img src="img/131239157.png" alt="Photo de mifo">
+            <div class="me-text">
+                <h1>mifo</h1>
+                <p>im a super cool persone who love computer science <br> i want to specialize myself in cybersecurity i love pentesting cryptographie and malware </p>
+            </div>
         </div>
-        <div class="language">
-          <img src="images/HTML5_logo.svg" class="lang-icon">
-          <span>HTML</span>
+
+        <div class="cert">
+            <iframe
+                src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4729732"
+                style="border:none;"
+                title="TryHackMe badge">
+            </iframe>
         </div>
-        <div class="language">
-          <img src="images/css-3.svg" class="lang-icon">
-          <span>CSS</span>
-        </div>
-      </div>
-      
-      
-        <h2>Other</h2>
-        <div class="others">
-        <div class="language">
-          <img src="images/linux.svg" class="lang-icon">
-          <span>Linux</span>
-        </div>
-      </div>
+
+    </section>
+
+    <!-- PROJETS -->
+     <div class="talents">
+        <section class="projets">
+            <h2>random projects</h2>
+
+            <ul class="project-list">
+
+                <li class="projinspi">
+                  <!-- <a href="https://youtube.com" class="projet-link"> -->
+                        <article>
+                            <h3>portfolio</h3>
+                            <p>this is the portfolio you seeing right now <br> i tried to be the most creative possible <br> and to reflect my personnality </p>
+                        </article>
+                    </a>
+                </li>
+
+                <dialog id="proj1modal">
+                    <form method="dialog">
+                        <p>test</p>
+                        <button>Fermer</button>
+                    </form>
+                </dialog>
+
+                <li class="projinspi">
+                    <a href="https://youtube.com" class="projet-link">
+                        <article>
+                            <h3>Projet 2</h3>
+                            <p>this is project 2 this is a fucking place holder cause im not productive</p>
+                        </article>
+                    </a>
+                </li>
+
+            </ul>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills">
+            <h2>skills</h2>
+
+            <ul class="skills-list">
+                <li class="skill-category">
+                    <strong>operating system</strong>
+                    <ul>
+                        <li class="linux">Linux</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
     </div>
-  </main>
+</main>
+</div>
 </body>
 </html>
