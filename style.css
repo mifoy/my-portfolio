@@ -95,7 +95,6 @@ ul {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
-
 }
 
 .cert iframe {
@@ -162,7 +161,11 @@ ul {
     flex-direction: column;
     margin-left: 10%;
     padding: 5px;
-    align-items: center;
     border: 1px solid var(--text-color);
+    bottom;
 }
 
+.skills ul {
+display: flex;
+flex-direction: row;
+}
